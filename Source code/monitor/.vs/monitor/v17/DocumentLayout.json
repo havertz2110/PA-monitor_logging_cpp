@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buivu\\source\\repos\\monitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4728DF-66E1-40DE-B07E-57827B88A475}|monitor\\monitor.vcxproj|C:\\Users\\buivu\\source\\repos\\monitor\\monitor\\monitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC4728DF-66E1-40DE-B07E-57827B88A475}|monitor\\monitor.vcxproj|solutionrelative:monitor\\monitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "monitor.cpp",
+              "DocumentMoniker": "C:\\Users\\buivu\\source\\repos\\monitor\\monitor\\monitor.cpp",
+              "RelativeDocumentMoniker": "monitor\\monitor.cpp",
+              "ToolTip": "C:\\Users\\buivu\\source\\repos\\monitor\\monitor\\monitor.cpp",
+              "RelativeToolTip": "monitor\\monitor.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-06T07:27:09.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
