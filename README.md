@@ -45,12 +45,17 @@ https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-readdirec
 ### The process id part
 To display the process ID and name responsible for creating, deleting, or modifying files in the directory, you'll need to use some advanced techniques in Windows programming, such as the Windows Management Instrumentation (WMI) or Process Trace APIs. These APIs allow you to trace the file system changes back to the originating process.
 
-.
-
 An Alternative Approach:
 If you want to keep it simpler, you could periodically scan the system's running processes and compare their file handles to the directory you're monitoring. This won't be as precise as the above methods but can give a reasonable approximation.
 
 Using Process Trace APIs:
 You can use Event Tracing for Windows (ETW) or the NT Kernel Logger to trace which process is making changes. However, this approach is quite complex and involves registering for file system change events and then correlating those events with process IDs
 
+But having said that, I only managed to pop up the PID of ```monitor.exe```, I dont know why...
+
 ## Installation and file structure
+
+The main ```.cpp``` file is in ```monitor-logging-csharp/Source code and Compiled executable/monitor/``` and by pressing F5, you will pop out the console. Then, the ```.exe``` file is in ```monitor-logging-csharp/Source code and Compiled executable/x64
+/Debug/```. Moreover,  the log file is saved in 
+
+
