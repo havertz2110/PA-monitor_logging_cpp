@@ -55,7 +55,15 @@ But having said that, I only managed to pop up the PID of ```monitor.exe```, I d
 
 ## Installation and file structure
 
-The main ```.cpp``` file is in ```monitor-logging-csharp/Source code and Compiled executable/monitor/``` and by pressing F5, you will pop out the console. Then, the ```.exe``` file is in ```monitor-logging-csharp/Source code and Compiled executable/x64
+The main ```.cpp``` file is in ```monitor-logging-csharp/Source code and Compiled executable/monitor/``` and by pressing F5, you will pop out the console. 
+
+The ```.exe``` file is in ```monitor-logging-csharp/Source code and Compiled executable/x64
 /Debug/```. Moreover,  the log file is saved in 
 
+## Demos
+Here is a picture of the console after editing the directory a bit:
 
+![alt text](image.png)
+
+And here is the log file:
+![alt text](image-1.png)
