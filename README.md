@@ -3,6 +3,59 @@
 ## Introduction
 This is a project about making a Windows file system monitor (console application) that tracks changes within specified directory and its subdirectories and files, logging detailed information about each event in a structured format.
 
+## Challenge description:
+*Challenge: File System Monitor with Comprehensive Logging (C/C++)*
+
+*Objective:*
+
+Develop a Windows file system monitor (console application) that tracks changes within specified directory and it subdirectories and files, logging detailed information about each event in a structured format.
+
+*Requirements:*
+- *Recursive Directory Monitoring:*
+	- Allow the user to specify one directory to monitor.
+	- Utilize the ReadDirectoryChangesW Windows API function for efficient change detection.
+
+- *Comprehensive Logging:*
+	- *Log File:* Create a log file (e.g., "file\_monitor.log") to store event details.
+	- *Event Details:* For each file system event, log the following information:
+		- *Timestamp:* Precise date and time the event occurred (e.g., "2024-06-13 12:22:35 AM").
+		- *Event Type:* Clearly indicate the type of change (Created, Modified, Deleted, Renamed (include both old and new file names)).
+		- *File/Directory Path:* Full path of the affected file or directory (e.g., "C:\\Documents\\report.txt").
+		- *Process Information (Optional):* If possible, include the process ID and name responsible for the change (e.g., "PID: 1234, Process: notepad.exe").
+
+- *Log Format:*
+	- Use CSV log format (comma-separated values) to ensure easy parsing and analysis.
+	- Example CSV log entry:
+2024-06-13 12:22:35 AM,Created,C:\Documents\report.txt,PID: 1234, Process: notepad.exe
+
+- *Summary Statistics:*
+	- Provide summary statistics on file changes over time to console output, including:
+		- Total number of changes
+		- Number of changes per event type
+
+- *Error Handling:*
+	- Gracefully handle errors that may occur during monitoring or logging.
+	- Log any errors encountered with relevant details.
+
+*Evaluation Criteria:*
+- *Functionality:* The monitor accurately detects and logs all specified file system events.
+- *Log Format:* The log file is well-structured and easy to parse.
+- *Error Handling:* Errors are handled gracefully and logged appropriately.
+- *Performance:* The monitor has minimal impact on system resources.
+
+*Additional Tips:*
+- Thoroughly review the ReadDirectoryChangesW API documentation.
+- Consider using a separate thread for monitoring to avoid blocking the main application.
+- Test the monitor in different scenarios to ensure it works reliably.
+
+*Submission Requirements:*
+- Source code
+- README.md file
+- Compiled executable
+- Demo video
+
+
+
 ## Goals
 ### 1. Recursive Directory Monitoring:
 
